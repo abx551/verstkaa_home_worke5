@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">verstkaa_home_worke5</string>
+    <string name="remember_me">remember_me</string>
+    <string name="login">Вход</string>
+    <string name="pasword">Пороль</string>
+    <string name="name">Введите имя</string>
+    <string name="name1">Введите имя</string>
+    <string name="password">Пароль</string>
+    <string name="remember_me1">Remember Me</string>
+</resources>

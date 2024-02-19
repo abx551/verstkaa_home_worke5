@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/img"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/img"
+        android:layout_gravity="center"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.ExtraLarge" />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="70dp"
+        android:paddingBottom="20dp"
+        android:hint="@string/name1"
+        android:textColorHint="@color/gray"
+        android:backgroundTint="@color/black" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="50dp"
+        android:paddingBottom="20dp"
+        android:hint="@string/password"
+        android:textColorHint="@color/gray"
+        android:backgroundTint="@color/black" />
+
+    <CheckBox
+        android:id="@+id/cb_remember_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="8dp"
+        android:text="@string/remember_me1"
+        android:textColor="@color/red" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_entrance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="30dp"
+        android:paddingVertical="10dp"
+        app:cornerRadius="10dp"
+        android:text="Вход"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/red"/>
+
+</LinearLayout>
